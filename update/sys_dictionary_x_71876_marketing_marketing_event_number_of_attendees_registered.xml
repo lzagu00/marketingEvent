@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_name" table="x_71876_marketing_marketing_events_csv">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="number_of_attendees_registered" table="x_71876_marketing_marketing_event">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>import_attribute_name=Name,edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Name</column_label>
+        <column_label>Number of attendees registered</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,13 +28,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_name</element>
+        <element>number_of_attendees_registered</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_71876_marketing_marketing_events_csv</name>
+        <name>x_71876_marketing_marketing_event</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-01-18 02:55:54</sys_created_on>
+        <sys_created_on>2017-01-19 00:48:45</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>563864034f143200da503879b110c74d</sys_id>
+        <sys_id>2a94d5134f503200da503879b110c787</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Name</sys_name>
+        <sys_name>Number of attendees registered</sys_name>
         <sys_package display_value="Marketing Events Application" source="x_71876_marketing">8565dc074fd03200da503879b110c7ae</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing Events Application">8565dc074fd03200da503879b110c7ae</sys_scope>
-        <sys_update_name>sys_dictionary_x_71876_marketing_marketing_events_csv_u_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_71876_marketing_marketing_event_number_of_attendees_registered</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-18 02:55:54</sys_updated_on>
+        <sys_updated_on>2017-01-19 00:48:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
